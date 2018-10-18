@@ -19,6 +19,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+                maven {
+            url "C:/nishant/AndroidProjects/MusicPlayer/node_modules/react-native/android"
+        }
     }
 }
 
